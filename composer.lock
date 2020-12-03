@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fac753ae2702317b354e7eb283f28cbc",
+    "content-hash": "17aac40ac82f981fd954298ccff60deb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -561,6 +561,52 @@
             "time": "2020-10-22T13:57:20+00:00"
         },
         {
+            "name": "godruoyi/laravel-tabler-ui",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/godruoyi/Workplace/Packages/godruoyi/laravel-tabler-ui/packages/laravel-tabler-ui",
+                "reference": "983fccaec53954e3aad62d76d17285794c5cc58e"
+            },
+            "require": {
+                "illuminate/console": "^7.0 | ^8.0",
+                "illuminate/filesystem": "^7.0 | ^8.0",
+                "illuminate/support": "^7.0 | ^8.0",
+                "laravel/ui": "^2.1 | ^3.0",
+                "php": "^7.2.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Godruoyi\\LaravelTablerUi\\TablerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Godruoyi\\LaravelTablerUi\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Godruoyi",
+                    "email": "godruoyi@gmail.com"
+                }
+            ],
+            "description": "Package description here.",
+            "homepage": "https://github.com/godruoyi/laravel-tabler-ui",
+            "keywords": [
+                "Laravel UI",
+                "bootstrap",
+                "laravel tabler",
+                "tabler"
+            ]
+        },
+        {
             "name": "graham-campbell/result-type",
             "version": "v1.0.1",
             "source": {
@@ -1076,6 +1122,66 @@
                 "psysh"
             ],
             "time": "2020-10-29T13:07:12+00:00"
+        },
+        {
+            "name": "laravel/ui",
+            "version": "v3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "444072cb2f8baaa15172c5cde2bd30d188c3b7e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/444072cb2f8baaa15172c5cde2bd30d188c3b7e7",
+                "reference": "444072cb2f8baaa15172c5cde2bd30d188c3b7e7",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "illuminate/console": "^8.0",
+                "illuminate/filesystem": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/",
+                    "Illuminate\\Foundation\\Auth\\": "auth-backend/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "time": "2020-11-03T19:51:21+00:00"
         },
         {
             "name": "league/commonmark",
@@ -6749,7 +6855,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "godruoyi/laravel-tabler-ui": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
