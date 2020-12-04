@@ -33,7 +33,7 @@
                         <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
                         @endif
 
-                        <a href="https://github.com/godruoyi/laravel-tabler-ui" class="text-sm text-gray-700 underline">GitHub</a>
+                        <a href="https://github.com/godruoyi/laravel-tabler-ui" class="ml-4 text-sm text-gray-700 underline">GitHub</a>
                     @endauth
                 </div>
             @endif
