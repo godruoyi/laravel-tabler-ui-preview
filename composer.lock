@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17aac40ac82f981fd954298ccff60deb",
+    "content-hash": "e72e11654604c35fcba5aab551fbf66f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -563,10 +563,22 @@
         {
             "name": "godruoyi/laravel-tabler-ui",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/godruoyi/laravel-tabler-ui.git",
+                "reference": "092fb6f67b7fee24ff58b0afbcb02359bfe2f6ef"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/godruoyi/Workplace/Packages/godruoyi/laravel-tabler-ui/packages/laravel-tabler-ui",
-                "reference": "983fccaec53954e3aad62d76d17285794c5cc58e"
+                "type": "zip",
+                "url": "https://api.github.com/repos/godruoyi/laravel-tabler-ui/zipball/092fb6f67b7fee24ff58b0afbcb02359bfe2f6ef",
+                "reference": "092fb6f67b7fee24ff58b0afbcb02359bfe2f6ef",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "illuminate/console": "^7.0 | ^8.0",
@@ -588,6 +600,7 @@
                     "Godruoyi\\LaravelTablerUi\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -600,11 +613,12 @@
             "description": "Package description here.",
             "homepage": "https://github.com/godruoyi/laravel-tabler-ui",
             "keywords": [
-                "Laravel UI",
                 "bootstrap",
                 "laravel tabler",
+                "laravel ui",
                 "tabler"
-            ]
+            ],
+            "time": "2020-12-03T05:13:36+00:00"
         },
         {
             "name": "graham-campbell/result-type",
